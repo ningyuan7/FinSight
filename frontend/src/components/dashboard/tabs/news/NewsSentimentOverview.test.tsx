@@ -5,9 +5,9 @@ import type { NewsItem, NewsSentimentSnapshot } from '../../../../types/dashboar
 import {
   hasUsablePriceTransmission,
   mapBackendCatalystEvents,
-  NewsSentimentOverview,
   resolveBackendTrend,
-} from './NewsSentimentOverview';
+} from './newsSentimentSnapshot';
+import { NewsSentimentOverview } from './NewsSentimentOverview';
 
 const news: NewsItem[] = [
   {
